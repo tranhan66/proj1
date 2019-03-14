@@ -5,3 +5,4 @@ http.createServer((req,res)=>{let body=[];
     body=Buffer.concat(body).toString();
     res.end(body);});
 }).listen(8080);
+console.log('httpSV listening on8080...');
